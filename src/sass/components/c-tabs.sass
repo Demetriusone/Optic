@@ -1,0 +1,18 @@
+.c-tabs
+   $parent: &
+   &__nav
+      display: flex
+      margin: 0 -15px 52px
+   &__for
+      position: relative
+   &__btn
+      cursor: pointer
+      +nosel
+      &.is-active
+         pointer-events: none
+         opacity: 1
+         
+   &__tab
+      display: none
+      &:first-child
+         display: block
